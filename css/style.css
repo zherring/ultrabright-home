@@ -33,6 +33,9 @@ footer {
   bottom: 0;
   font-size: 0.7rem;
 }
+footer span {
+  opacity: 0.8;
+}
 
 h1, h2, h3, h4 {
   font-family: "Russo One", sans-serif;

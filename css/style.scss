@@ -1,0 +1,40 @@
+
+html {
+  border: 18px solid #5200FF;
+  height: 100%;
+}
+
+html, body {
+  color: #fff;
+  font-family: roboto, helvetica, arial, san-serif;
+  font-size: 18px;
+}
+body {
+  height: 100%;
+  text-align: center;
+
+  background: #5200FF url("/img/bg.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+
+
+  > * {
+    max-width: 50rem;
+    flex-basis: 1;
+  }
+
+}
+
+footer {
+position: absolute;
+bottom: 0;
+font-size: .7rem;
+}
+
+h1,h2,h3,h4 {
+      font-family: 'Russo One', sans-serif;
+}
